@@ -180,6 +180,16 @@ img {
 
 .footer {
     background-color: var(--negro);
-    padding-bottom: 3rem;
-    margin-top: 4rem;
+    padding: 2rem 0;
+    
+}
+
+
+/** Sobre Nosotros **/
+@media (min-width: 768px) {
+    .sobre-nosotros {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
 }
